@@ -127,8 +127,10 @@ public Routing() {
 ```
 ## Captura de Servidor con varios CLientes (solucionado el problema de forzar desconexion a todos los clientes si uno se desconecta)
 <img width="2242" height="701" alt="imagen" src="https://github.com/user-attachments/assets/0f2edcd5-0a06-4e63-927f-7205e2db3b12" />
+
 ## Captura de Servidor y Cliente para ver mejor la interfaz
 <img width="2143" height="664" alt="imagen" src="https://github.com/user-attachments/assets/1adf5563-e7a3-4b83-ac27-bf231311c056" />
+
 ## Captura de Cliente con todos los comandos testeados y funcionando perfectamente
 <img width="1807" height="889" alt="imagen" src="https://github.com/user-attachments/assets/fd50c6f3-2b89-46a0-8f69-588a13f860d8" />
 
