@@ -2,9 +2,7 @@
 
 Este documento resume las decisiones técnicas, correcciones y mejoras aplicadas al proyecto del servidor TCP multihilo encargado de registrar usuarios, iniciar sesión, listar datos, generar hashes y manejar múltiples clientes simultáneos. Incluye advertencias, problemas detectados y justificación de todas las mejoras implementadas.
 
-============================================================
 SECCIÓN 1 — Corrección en UserDataThread.java
-============================================================
 
 Problema original:
 ```System.exit(0);```  
