@@ -17,9 +17,9 @@ Beneficio:
 - Solo termina el hilo actual.
 - El servidor sigue funcionando normalmente.
 
-============================================================
+
 SECCIÓN 2 — Corrección en UserRepository.java
-============================================================
+=
 
 Versión original del método getAll:
 ```java
@@ -48,9 +48,8 @@ Beneficios:
 - Evita corrupción del estado compartido.
 - Mantiene intacta la zona crítica del repositorio.
 
-============================================================
 SECCIÓN 3 — Mejora en GetHashUseCase
-============================================================
+=
 
 Problema detectado:
 - Comando hardcodeado a macOS: ```md5```
@@ -65,9 +64,8 @@ Ideas para mejora futura:
 
 (Notas: en examen no es obligatorio implementarlo.)
 
-============================================================
 SECCIÓN 4 — Observación en LoginUseCase
-============================================================
+=
 
 Problema potencial:
 - Email podría estar duplicado en la lista.
@@ -77,9 +75,8 @@ Motivo por el que no se corrige:
 - Para examen se asume que el repositorio NO tendrá duplicados.
 - Aun así se deja anotado como consideración técnica.
 
-============================================================
 SECCIÓN 5 — Corrección en RegisterUseCase
-============================================================
+=
 
 Problema original:
 Path hardcodeado a tu máquina:
@@ -101,10 +98,9 @@ Notas:
 - La carpeta "files" SIEMPRE existe en el entregable del examen.
 - No se elimina compatibilidad ni estructura original.
 
-============================================================
-SECCIÓN 6 — Explicación de Routing y sus endpoints
-============================================================
 
+SECCIÓN 6 — Explicación de Routing y sus endpoints
+=
 El constructor de Routing registra todos los comandos disponibles:
 
 (reg) → RegisterUseCase  
@@ -133,7 +129,3 @@ public Routing() {
 Notas importantes para incluir capturas:
 - Cada comando debe tener su captura funcionando.
 - No es necesario mostrar el código, solo las pruebas.
-
-============================================================
-FIN DEL DOCUMENTO
-============================================================
